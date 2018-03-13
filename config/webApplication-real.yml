@@ -1,8 +1,0 @@
-server:
-  type:real
-  
-db:
-  server:
-    ip:10.0.1.111
-    user:realuser
-    password:1234
