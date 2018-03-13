@@ -4,5 +4,5 @@ server:
 db:
   server:
     ip:10.0.1.1
-	user:devuser
-	password:1234
+    user:devuser
+    password:1234
