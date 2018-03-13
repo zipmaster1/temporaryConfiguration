@@ -1,3 +1,10 @@
+db:
+  server:
+    ip:127.0.0.1
+
+market:
+  type:computer
+  
 ---
 spring:
   profiles: local
