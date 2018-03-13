@@ -1,45 +1,26 @@
-spring:
-  profiles:
-    active:
-    - local
-server:
-  type:local
-db:
-  server:
-    ip:127.0.0.1
-    user:localUser
-    password:1234
-market:
-  type:camera
-  
+devguide:
+  greeting: "안녕하세요"
+
 ---
 
 spring:
-  profiles:
-    active:
-    - dev
-server:
-  type:dev
-db:
-  server:
-    ip:10.0.0.1
-    user:devUser
-    password:1234
-market:
-  type:camera
+  profiles: stage
   
+devguide:
+  greeting: "스테이징 서버에 오신걸 환영합니다."
+
 ---
 
 spring:
-  profiles:
-    active:
-    - real
-server:
-  type:real
-db:
-  server:
-    ip:10.0.0.100
-    user:devUser
-    password:1234
-market:
-  type:camera
+  profiles: dev
+  
+devguide:
+  greeting: "개발 서버에 오신걸 환영합니다!"
+
+---
+
+spring:
+  profiles: local
+  
+devguide:
+  greeting: "홍캐리 로컬 서버에 오신걸 환영합니다."
