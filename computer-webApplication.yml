@@ -5,8 +5,6 @@ spring:
 db:
   server:
     ip:127.0.0.1
-    user:localUser
-    password:1234
 
 market:
   type:computer
@@ -19,8 +17,6 @@ spring:
 db:
   server:
     ip:10.0.0.1
-    user:devUser
-    password:1234
 
 market:
   type:computer
@@ -33,8 +29,6 @@ spring:
 db:
   server:
     ip:10.0.0.100
-    user:devUser
-    password:1234
 
 market:
   type:computer
