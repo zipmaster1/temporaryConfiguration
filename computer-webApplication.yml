@@ -1,9 +1,9 @@
 db:
   server:
-    ip:127.0.0.1
+    ip: 127.0.0.1
 
 market:
-  type:computer
+  type: computer
   
 ---
 spring:
@@ -11,31 +11,31 @@ spring:
 
 db:
   server:
-    ip:127.0.0.1
+    ip: 127.0.0.1
 
 market:
-  type:computer
+  type: computer
 
 ---
 
 spring:
-  profiles:dev
+  profiles: dev
 
 db:
   server:
-    ip:10.0.0.1
+    ip: 10.0.0.1
 
 market:
-  type:computer
+  type: computer
 
 ---
 
 spring:
-  profiles:real
+  profiles: real
 
 db:
   server:
-    ip:10.0.0.100
+    ip: 10.0.0.100
 
 market:
-  type:computer
+  type: computer
