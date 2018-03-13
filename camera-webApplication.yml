@@ -1,15 +1,12 @@
 spring:
-  profiles:local
-  
+  profiles:local  
 server:
   type:local
-  
 db:
   server:
     ip:127.0.0.1
     user:localUser
     password:1234
-
 market:
   type:camera
   
@@ -17,16 +14,13 @@ market:
 
 spring:
   profiles:dev
-  
 server:
   type:dev
-  
 db:
   server:
     ip:10.0.0.1
     user:devUser
     password:1234
-
 market:
   type:camera
   
@@ -34,15 +28,12 @@ market:
 
 spring:
   profiles:real
-  
 server:
   type:real
-  
 db:
   server:
     ip:10.0.0.100
     user:devUser
     password:1234
-
 market:
   type:camera
