@@ -11,10 +11,9 @@ spring:
 
 db:
   server:
-    ip: 127.0.0.1
+    ip: 128.0.0.111
 
-market:
-  type: computer
+user: localUser
 
 ---
 
@@ -23,10 +22,9 @@ spring:
 
 db:
   server:
-    ip: 10.0.0.1
+    ip: 18.0.0.122
 
-market:
-  type: computer
+user: devUser
 
 ---
 
@@ -35,7 +33,6 @@ spring:
 
 db:
   server:
-    ip: 10.0.0.100
+    ip: 18.0.0.133
 
-market:
-  type: computer
+user: realUser

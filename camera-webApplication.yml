@@ -1,27 +1,38 @@
-devguide:
-  greeting: "0000"
+db:
+  server:
+    ip: 127.0.0.1
 
----
-
-spring:
-  profiles: stage
+market:
+  type: camera
   
-devguide:
-  greeting: "1111"
+---
+spring:
+  profiles: local
+
+db:
+  server:
+    ip: 127.0.0.111
+
+user: localUser
 
 ---
 
 spring:
   profiles: dev
-  
-devguide:
-  greeting: "2222"
+
+db:
+  server:
+    ip: 10.0.0.122
+
+user: devUser
 
 ---
 
 spring:
-  profiles: local
-  
-devguide:
-  greeting: "3333"
-  
+  profiles: real
+
+db:
+  server:
+    ip: 10.0.0.133
+
+user: realUser

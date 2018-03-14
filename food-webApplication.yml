@@ -1,48 +1,38 @@
-spring:
-  profiles:local
-  
-server:
-  type:local
-  
 db:
   server:
-    ip:127.0.0.1
-    user:localUser
-    password:1234
+    ip: 127.0.0.1
 
 market:
-  type:food
+  type: food
   
+---
+spring:
+  profiles: local
+
+db:
+  server:
+    ip: 129.0.0.111
+
+user: localUser
+
 ---
 
 spring:
-  profiles:dev
-  
-server:
-  type:dev
-  
+  profiles: dev
+
 db:
   server:
-    ip:10.0.0.1
-    user:devUser
-    password:1234
+    ip: 19.0.0.122
 
-market:
-  type:food
-  
+user: devUser
+
 ---
 
 spring:
-  profiles:real
-  
-server:
-  type:real
-  
+  profiles: real
+
 db:
   server:
-    ip:10.0.0.100
-    user:devUser
-    password:1234
+    ip: 19.0.0.133
 
-market:
-  type:food
+user: realUser
